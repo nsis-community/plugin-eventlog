@@ -26,7 +26,7 @@
 
 #include <windows.h>
 #include <stdio.h>
-#include "..\ExDLL\exdll.h"
+#include "exdll.h"
 
 HINSTANCE g_hInstance;
 
