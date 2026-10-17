@@ -28,4 +28,5 @@ jobs:
             Contrib/EventLog/EventLog.c
             Contrib/EventLog/EventLog.rc
           strict: false
+          targets: x86-ansi
           release: ${{ github.event_name == 'release' }}
